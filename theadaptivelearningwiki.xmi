@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http:///schemas/default/_Hx2eACNQEeeWfJ8sRjdZOQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.1.1" xmi:version="2.1" xsi:schemaLocation="http://www.eclipse.org/uml2/3.0.0/UML http://schema.omg.org/spec/UML/2.1.1 http:///schemas/default/_Hx2eACNQEeeWfJ8sRjdZOQ/0 default.profile.xmi#_HyTJ9yNQEeeWfJ8sRjdZOQ">
+  <uml:Model xmi:id="_HxZyECNQEeeWfJ8sRjdZOQ" name="theadaptivelearningwiki">
+    <eAnnotations xmi:id="_HxZyESNQEeeWfJ8sRjdZOQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_HxZyEiNQEeeWfJ8sRjdZOQ" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_HxZyEyNQEeeWfJ8sRjdZOQ" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HxZyFCNQEeeWfJ8sRjdZOQ" name="Administrador"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyFSNQEeeWfJ8sRjdZOQ" memberEnd="_HxZyFiNQEeeWfJ8sRjdZOQ _HxZyGCNQEeeWfJ8sRjdZOQ" navigableOwnedEnd="_HxZyFiNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyFiNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyiyNQEeeWfJ8sRjdZOQ" association="_HxZyFSNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyFyNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyGCNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyFCNQEeeWfJ8sRjdZOQ" association="_HxZyFSNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyGSNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HxZyGiNQEeeWfJ8sRjdZOQ" name="Experto"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyGyNQEeeWfJ8sRjdZOQ" memberEnd="_HxZyHCNQEeeWfJ8sRjdZOQ _HxZyHiNQEeeWfJ8sRjdZOQ" navigableOwnedEnd="_HxZyHCNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyHCNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyMSNQEeeWfJ8sRjdZOQ" association="_HxZyGyNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyHSNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyHiNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyGiNQEeeWfJ8sRjdZOQ" association="_HxZyGyNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyHyNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HxZyICNQEeeWfJ8sRjdZOQ" name="Estudiante"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyISNQEeeWfJ8sRjdZOQ" memberEnd="_HxZyIiNQEeeWfJ8sRjdZOQ _HxZyJCNQEeeWfJ8sRjdZOQ" navigableOwnedEnd="_HxZyIiNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyIiNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZymyNQEeeWfJ8sRjdZOQ" association="_HxZyISNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyIyNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyJCNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyICNQEeeWfJ8sRjdZOQ" association="_HxZyISNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyJSNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyJiNQEeeWfJ8sRjdZOQ" memberEnd="_HxZyJyNQEeeWfJ8sRjdZOQ _HxZyKSNQEeeWfJ8sRjdZOQ" navigableOwnedEnd="_HxZyJyNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyJyNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyYyNQEeeWfJ8sRjdZOQ" association="_HxZyJiNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyKCNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyKSNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyICNQEeeWfJ8sRjdZOQ" association="_HxZyJiNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyKiNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HxZyKyNQEeeWfJ8sRjdZOQ" name="Invitado"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyLCNQEeeWfJ8sRjdZOQ" memberEnd="_HxZyLSNQEeeWfJ8sRjdZOQ _HxZyLyNQEeeWfJ8sRjdZOQ" navigableOwnedEnd="_HxZyLSNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyLSNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZycyNQEeeWfJ8sRjdZOQ" association="_HxZyLCNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyLiNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyLyNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyKyNQEeeWfJ8sRjdZOQ" association="_HxZyLCNQEeeWfJ8sRjdZOQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZyMCNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyMSNQEeeWfJ8sRjdZOQ" name="Acceso experto">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyMiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyMyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyNCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyNSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyNiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyNyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZyOCNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyRCNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyOSNQEeeWfJ8sRjdZOQ" name="Visualizar contenido">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyOiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyOyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyPCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyPSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyPiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyPyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZyQCNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyMSNQEeeWfJ8sRjdZOQ"/>
+      <include xmi:type="uml:Include" xmi:id="_HxZyQSNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZycyNQEeeWfJ8sRjdZOQ"/>
+      <include xmi:type="uml:Include" xmi:id="_HxZyQiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZymyNQEeeWfJ8sRjdZOQ"/>
+      <include xmi:type="uml:Include" xmi:id="_HxZyQyNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyiyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyRCNQEeeWfJ8sRjdZOQ" name="Login usuario">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyRSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyRiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyRyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZySCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZySSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZySiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZySyNQEeeWfJ8sRjdZOQ" name="Añadir contenido">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyTCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyTSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyTiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyTyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyUCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyUSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:type="uml:Extend" xmi:id="_HxZyUiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" extendedCase="_HxZykyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyUyNQEeeWfJ8sRjdZOQ" name="Modificar contenido">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyVCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyVSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyViNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyVyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyWCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyWSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:type="uml:Extend" xmi:id="_HxZyWiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" extendedCase="_HxZykyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyWyNQEeeWfJ8sRjdZOQ" name="Eliminar contenido">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyXCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyXSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyXiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyXyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyYCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyYSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:type="uml:Extend" xmi:id="_HxZyYiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" extendedCase="_HxZykyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyYyNQEeeWfJ8sRjdZOQ" name="Registro estudiante">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyZCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyZSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyZiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyZyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyaCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyaSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZyaiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyeiNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyayNQEeeWfJ8sRjdZOQ" name="(Des)Aprobar contenido">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZybCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZybSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZybiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZybyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZycCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZycSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:type="uml:Extend" xmi:id="_HxZyciNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" extendedCase="_HxZykyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZycyNQEeeWfJ8sRjdZOQ" name="Acceso invitado">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZydCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZydSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZydiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZydyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyeCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyeSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyeiNQEeeWfJ8sRjdZOQ" name="Responder encuesta">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyeyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyfCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyfSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyfiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyfyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZygCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZygSNQEeeWfJ8sRjdZOQ" name="Editar perfil">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZygiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZygyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyhCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyhSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyhiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyhyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZyiCNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyiyNQEeeWfJ8sRjdZOQ"/>
+      <include xmi:type="uml:Include" xmi:id="_HxZyiSNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyMSNQEeeWfJ8sRjdZOQ"/>
+      <include xmi:type="uml:Include" xmi:id="_HxZyiiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZymyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyiyNQEeeWfJ8sRjdZOQ" name="Acceso administrador">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyjCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyjSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyjiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyjyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZykCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZykSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZykiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyRCNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZykyNQEeeWfJ8sRjdZOQ" name="Gestionar contenido">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZylCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZylSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyliNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZylyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZymCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZymSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZymiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyMSNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZymyNQEeeWfJ8sRjdZOQ" name="Acceso estudiante">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZynCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZynSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyniNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZynyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyoCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyoSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZyoiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyRCNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyoyNQEeeWfJ8sRjdZOQ" name="Eliminar cuenta">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZypCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZypSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZypiNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZypyNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyqCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyqSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <extend xmi:type="uml:Extend" xmi:id="_HxZyqiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" extendedCase="_HxZygSNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxZyqyNQEeeWfJ8sRjdZOQ" name="Gestionar usuarios">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyrCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyrSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyriNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZyryNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZysCNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_HxZysSNQEeeWfJ8sRjdZOQ">
+        <body>...</body>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_HxZysiNQEeeWfJ8sRjdZOQ" name="UseCaseDependency" addition="_HxZyiyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZysyNQEeeWfJ8sRjdZOQ" name="Usuario"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZytCNQEeeWfJ8sRjdZOQ" name="Administrador">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZytSNQEeeWfJ8sRjdZOQ" general="_HxZysyNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZytiNQEeeWfJ8sRjdZOQ" name="Experto">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZytyNQEeeWfJ8sRjdZOQ" general="_HxZysyNQEeeWfJ8sRjdZOQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZyuCNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy5SNQEeeWfJ8sRjdZOQ" association="_HxZywCNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyuSNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZyuiNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy5SNQEeeWfJ8sRjdZOQ" association="_HxZywyNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyuyNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZyvCNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy8SNQEeeWfJ8sRjdZOQ" association="_HxZyxiNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyvSNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZyviNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy7CNQEeeWfJ8sRjdZOQ" association="_HxZyySNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyvyNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZywCNQEeeWfJ8sRjdZOQ" name="gestiona" memberEnd="_HxZyuCNQEeeWfJ8sRjdZOQ _HxZywSNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZywSNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZytiNQEeeWfJ8sRjdZOQ" association="_HxZywCNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZywiNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZywyNQEeeWfJ8sRjdZOQ" name="valida" memberEnd="_HxZyuiNQEeeWfJ8sRjdZOQ _HxZyxCNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyxCNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZytiNQEeeWfJ8sRjdZOQ" association="_HxZywyNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyxSNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyxiNQEeeWfJ8sRjdZOQ" name="gestiona" memberEnd="_HxZyvCNQEeeWfJ8sRjdZOQ _HxZyxyNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyxyNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZytiNQEeeWfJ8sRjdZOQ" association="_HxZyxiNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyyCNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZyySNQEeeWfJ8sRjdZOQ" name="gestiona" memberEnd="_HxZyviNQEeeWfJ8sRjdZOQ _HxZyyiNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZyyiNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZytiNQEeeWfJ8sRjdZOQ" association="_HxZyySNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyyyNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZyzCNQEeeWfJ8sRjdZOQ" name="Estudiante">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZyzSNQEeeWfJ8sRjdZOQ" general="_HxZysyNQEeeWfJ8sRjdZOQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZyziNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy5SNQEeeWfJ8sRjdZOQ" association="_HxZy1CNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZyzyNQEeeWfJ8sRjdZOQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZy0CNQEeeWfJ8sRjdZOQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZy0SNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy5SNQEeeWfJ8sRjdZOQ" association="_HxZy2CNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy0iNQEeeWfJ8sRjdZOQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZy0yNQEeeWfJ8sRjdZOQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZy1CNQEeeWfJ8sRjdZOQ" name="visualiza" memberEnd="_HxZyziNQEeeWfJ8sRjdZOQ _HxZy1SNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZy1SNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyzCNQEeeWfJ8sRjdZOQ" association="_HxZy1CNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy1iNQEeeWfJ8sRjdZOQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZy1yNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZy2CNQEeeWfJ8sRjdZOQ" name="califica" memberEnd="_HxZy0SNQEeeWfJ8sRjdZOQ _HxZy2SNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZy2SNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZyzCNQEeeWfJ8sRjdZOQ" association="_HxZy2CNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy2iNQEeeWfJ8sRjdZOQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZy2yNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy3CNQEeeWfJ8sRjdZOQ" name="Invitado">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZy3SNQEeeWfJ8sRjdZOQ" general="_HxZysyNQEeeWfJ8sRjdZOQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZy3iNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy5SNQEeeWfJ8sRjdZOQ" association="_HxZy4SNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy3yNQEeeWfJ8sRjdZOQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZy4CNQEeeWfJ8sRjdZOQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZy4SNQEeeWfJ8sRjdZOQ" name="visualiza" memberEnd="_HxZy3iNQEeeWfJ8sRjdZOQ _HxZy4iNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZy4iNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy3CNQEeeWfJ8sRjdZOQ" association="_HxZy4SNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy4yNQEeeWfJ8sRjdZOQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HxZy5CNQEeeWfJ8sRjdZOQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy5SNQEeeWfJ8sRjdZOQ" name="Contenido"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy5iNQEeeWfJ8sRjdZOQ" name="Media">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZy5yNQEeeWfJ8sRjdZOQ" general="_HxZy5SNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy6CNQEeeWfJ8sRjdZOQ" name="Archivos">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZy6SNQEeeWfJ8sRjdZOQ" general="_HxZy5SNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy6iNQEeeWfJ8sRjdZOQ" name="Texto">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HxZy6yNQEeeWfJ8sRjdZOQ" general="_HxZy5SNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy7CNQEeeWfJ8sRjdZOQ" name="Tema">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZy7SNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy8SNQEeeWfJ8sRjdZOQ" association="_HxZy7yNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy7iNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZy7yNQEeeWfJ8sRjdZOQ" name="contiene" memberEnd="_HxZy7SNQEeeWfJ8sRjdZOQ _HxZy8CNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZy8CNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy7CNQEeeWfJ8sRjdZOQ" association="_HxZy7yNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HxZy8SNQEeeWfJ8sRjdZOQ" name="Tópico">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HxZy8iNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy5SNQEeeWfJ8sRjdZOQ" association="_HxZy9CNQEeeWfJ8sRjdZOQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HxZy8yNQEeeWfJ8sRjdZOQ" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HxZy9CNQEeeWfJ8sRjdZOQ" name="contiene" memberEnd="_HxZy8iNQEeeWfJ8sRjdZOQ _HxZy9SNQEeeWfJ8sRjdZOQ">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HxZy9SNQEeeWfJ8sRjdZOQ" visibility="public" type="_HxZy8SNQEeeWfJ8sRjdZOQ" association="_HxZy9CNQEeeWfJ8sRjdZOQ"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:applyingPackage="_HxZyECNQEeeWfJ8sRjdZOQ" xmi:id="_H_8kYCNQEeeWfJ8sRjdZOQ">
+      <eAnnotations xmi:id="_IAFuUCNQEeeWfJ8sRjdZOQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="default.profile.xmi#_HyTJ9yNQEeeWfJ8sRjdZOQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" xmi:applyingPackage="_H_8kYCNQEeeWfJ8sRjdZOQ" href="default.profile.xmi#_HyTJ8CNQEeeWfJ8sRjdZOQ"/>
+    </profileApplication>
+  </uml:Model>
+  <default:primary xmi:id="_IAFuUSNQEeeWfJ8sRjdZOQ" base_Element="_HxZyFCNQEeeWfJ8sRjdZOQ"/>
+  <default:primary xmi:id="_IAFuUiNQEeeWfJ8sRjdZOQ" base_Element="_HxZyGiNQEeeWfJ8sRjdZOQ"/>
+  <default:primary xmi:id="_IAFuUyNQEeeWfJ8sRjdZOQ" base_Element="_HxZyICNQEeeWfJ8sRjdZOQ"/>
+  <default:primary xmi:id="_IAFuVCNQEeeWfJ8sRjdZOQ" base_Element="_HxZyKyNQEeeWfJ8sRjdZOQ"/>
+</xmi:XMI>
