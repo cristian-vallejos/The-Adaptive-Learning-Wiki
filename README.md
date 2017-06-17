@@ -8,4 +8,4 @@ Cabe destacar que dicha dirección no es la misma en donde se alojan los informe
 
 // Subimos tanto los .zip del proyecto en Modelio, como los .xmi de los modelos específicos con la finalidad de simplificar a nuestro(s) evaluador(es) la tarea de abrir cada uno. //
 
-Made with Ruby On Rails & MongoDB.
+Made with Ruby (v 2.4.0) On Rails (5.1.0) & MongoDB.
